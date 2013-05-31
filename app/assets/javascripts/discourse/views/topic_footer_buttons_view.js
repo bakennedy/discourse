@@ -115,7 +115,7 @@ Discourse.TopicFooterButtonsView = Ember.ContainerView.extend({
         }.property(),
 
         renderIcon: function(buffer) {
-          buffer.push("<i class='icon icon-plus'></i>");
+          buffer.push("<i class='icon icon-reply'></i>");
         },
 
         click: function() {
